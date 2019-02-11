@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TableLayout_GridLayout</string>
+    <string name="caja_de_ahorros">Caja de ahorros</string>
+    <string name="nomina">Nómina</string>
+    <string name="cuentas">Cuentas</string>
+    <string name="tarjetas">Tarjetas</string>
+    <string name="fondos">Fondos</string>
+    <string name="planes">Planes</string>
+    <string name="broker">Broker</string>
+    <string name="hipotecas">Hipotecas</string>
+    <string name="prestamos">Préstamos</string>
+    <string name="seguros">Seguros</string>
+    <string name="comisiones">Comisiones</string>
+    <string name="puntos">Puntos</string>
+    <string name="regalos">Regalos</string>
+    <string name="volver">Volver</string>
+    <string name="siguiente">siguiente</string>
+    <string name="SEGUROS">seguros</string>
+    <string name="seguros_de_hogar">SEGUROS DE HOGAR</string>
+    <string name="compania_seguros">COMPAÑIA DE SEGUROS</string>
+    <string name="coche">COCHE</string>
+    <string name="moto">MOTO</string>
+    <string name="hogar">HOGAR</string>
+    <string name="accidentes">ACCIDENTES</string>
+    <string name="ofertas">OFERTAS</string>
+    <string name="vida">VIDA</string>
+    <string name="paso1">PASO 1</string>
+    <string name="paso2">PASO 2</string>
+    <string name="paso3">PASO 3</string>
+    <string name="salud">salud</string>
+    <string name="nuestros_productos">Nuestros productos</string>
+    <string name="consulta">consulta</string>
+    <string name="pagos">pagos</string>
+    <string name="october">October</string>
+    <string name="clear">Clear</string>
+    <string name="reservar">Reservar</string>
+</resources>

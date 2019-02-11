@@ -1,0 +1,182 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/fondo27">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:background="#86000000"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/icon_menu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/icon_menu" />
+
+        <TextView
+            android:id="@+id/texto-cabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/compania_seguros"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+        <GridLayout
+            android:id="@+id/bloque1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginTop="-60dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="65dp"
+            android:paddingTop="10dp"
+
+            >
+
+            <Button
+                android:id="@+id/card_nomina"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="#E9252525"
+                android:drawableTop="@drawable/logo1"
+                android:paddingTop="20dp"
+                android:text="@string/coche"
+                android:textColor="@color/blanco" />
+
+            <Button
+                android:id="@+id/card_cuentas"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="#B0000000"
+                android:drawableTop="@drawable/logo2"
+                android:paddingTop="20dp"
+                android:text="@string/moto"
+                android:textColor="@color/blanco" />
+
+
+            <Button
+                android:id="@+id/card_tarjetas"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="#B0000000"
+                android:drawableTop="@drawable/logo3"
+                android:paddingTop="20dp"
+                android:text="@string/hogar"
+                android:textColor="@color/blanco" />
+
+            <Button
+                android:id="@+id/card_fondos"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="#E9252525"
+                android:drawableTop="@drawable/logo4"
+                android:paddingTop="20dp"
+                android:text="@string/salud"
+                android:textColor="@color/blanco" />
+
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/nuestros_productos"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bloque2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="55dp"
+            android:paddingTop="10dp"
+            >
+
+
+
+            <Button
+                android:id="@+id/bloque1_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#D2F7F7F7"
+                android:drawableTop="@drawable/icon_currency"
+                android:paddingTop="20dp"
+                android:text="@string/consulta"
+                android:textColor="@color/negro" />
+
+            <Button
+                android:id="@+id/bloque2_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#D2F7F7F7"
+                android:drawableTop="@drawable/icon_calulator"
+                android:paddingTop="20dp"
+                android:text="calcula"
+                android:textColor="@color/negro" />
+
+
+            <Button
+                android:id="@+id/bloque3_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#D2F7F7F7"
+                android:drawableTop="@drawable/icon_creditcard"
+                android:paddingTop="20dp"
+                android:text="@string/pagos"
+                android:textColor="@color/negro" />
+
+
+        </GridLayout>
+
+
+</LinearLayout>
+

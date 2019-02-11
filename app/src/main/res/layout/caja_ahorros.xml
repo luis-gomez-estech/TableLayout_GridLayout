@@ -1,0 +1,249 @@
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fondo8">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/fondo12"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/icon_menu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon_menu" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caja_de_ahorros"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+              />
+
+
+            <ImageView
+                android:id="@+id/lupa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="60dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/lupa" />
+
+
+        </LinearLayout>
+
+
+        <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        android:layout_marginStart="65dp"
+        android:paddingTop="10dp"
+        >
+
+            <Button
+                android:id="@+id/card_nomina"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_currency"
+                android:paddingTop="20dp"
+                android:text="@string/nomina"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_cuentas"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_calulator"
+                android:paddingTop="20dp"
+                android:text="@string/cuentas"
+                android:textColor="@color/verde" />
+
+
+            <Button
+                android:id="@+id/card_tarjetas"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_creditcard"
+                android:paddingTop="20dp"
+                android:text="@string/tarjetas"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_fondos"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_piechart"
+                android:paddingTop="20dp"
+                android:text="@string/fondos"
+                android:textColor="@color/verde" />
+
+
+
+            <Button
+                android:id="@+id/card_planes"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_id"
+                android:paddingTop="20dp"
+                android:text="@string/planes"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_broker"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_cog"
+                android:paddingTop="20dp"
+                android:text="@string/broker"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_hipotecas"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_easel"
+                android:paddingTop="20dp"
+                android:text="@string/hipotecas"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_prestamos"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_datareport"
+                android:paddingTop="20dp"
+                android:text="@string/prestamos"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_seguros"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_group"
+                android:paddingTop="20dp"
+                android:text="@string/seguros"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_comisiones"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_shield"
+                android:paddingTop="20dp"
+                android:text="@string/comisiones"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_puntos"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_genius"
+                android:paddingTop="20dp"
+                android:text="@string/puntos"
+                android:textColor="@color/verde" />
+
+            <Button
+                android:id="@+id/card_regalos"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/background_tarjetas"
+                android:drawableTop="@drawable/icon_flowchart"
+                android:paddingTop="20dp"
+                android:text="@string/regalos"
+                android:textColor="@color/verde" />
+
+        </GridLayout>
+
+
+            <Button
+                android:id="@+id/boton_intent2"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/boton_caja_banco"
+                android:text="@string/siguiente"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
